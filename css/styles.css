@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons {
+    position: absolute;
+    top: 10rem;
+}
+.turnOff,
+.turnOn {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    background: rgb(27, 166, 221);
+    border: 0.2rem solid white;
+    margin: 2rem;
+}
+
+.deadmau5 {
+    width: 60rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+}   
+.ears {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.letf-ear {
+    width: 28rem;
+    height: 28rem;
+    background: red;
+    border-radius: 15rem;
+}
+.right-ear {
+    width: 28rem;
+    height: 28rem;
+    background: red;
+    border-radius: 15rem;
+
+}
+
+.face {
+    width: 30rem;
+    height: 30rem;
+    background: red;
+    border-radius: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    position: absolute;
+    top: 30rem;
+    box-shadow: 1rem 1rem 20rem 5rem #000;
+    
+}
+.eyes {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+.left-eye {
+    width: 10rem;
+    height: 9rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem 5rem 10rem 5rem;
+    box-shadow: 0.1rem 0.3rem 0.5rem 0.5rem white,
+                0.9rem 0.8rem  8rem 1.4rem white;
+}
+.right-eye {
+    width: 10rem;
+    height: 9rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem 10rem 5rem 10rem;
+    box-shadow: 0.1rem 0.3rem 0.5rem 0.5rem white,
+                0.9rem 0.8rem  8rem 1.4rem white;
+
+}
+
+.mouth {
+    width: 28rem;
+    height: 14rem;
+    background: white;
+    border-radius: 0rem 0rem 20rem 20rem;
+    box-shadow: 0.1rem 0.3rem 15rem 0.5rem white,
+                0.1rem 0.1rem  0.8rem 0.1rem white;
+}
+.equalizer {
+    display: flex;
+    position: absolute;
+    right: -8rem;
+}
+.bar {
+    width: 4rem;
+    height: 20rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -8rem;
+    bottom: -10;
+    top: 24rem;
+    z-index: -1;
+}
+.bar1 {
+    width: 4rem;
+    height: 40rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -23rem;
+    bottom: -10;
+    top: 15rem;
+    z-index: -1;
+}
+.bar2 {
+    width: 4rem;
+    height: 69rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -38rem;
+    bottom: -10;
+    z-index: -1;
+}
+.bar3 {
+    width: 4rem;
+    height: 50rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -53rem;
+    bottom: -10;
+    top: 10rem;
+    z-index: -1;
+}
+.bar4 {
+    width: 4rem;
+    height: 69rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -68rem;
+    bottom: -10;
+    z-index: -1;
+}
+.bar5 {
+    width: 4rem;
+    height: 40rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -83rem;
+    bottom: -10;
+    top: 15rem;
+    z-index: -1;
+}
+.bar6 {
+    width: 4rem;
+    height: 60rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -98rem;
+    bottom: -10;
+    top: 5rem;
+    z-index: -1;
+}
+.bar7 {
+    width: 4rem;
+    height: 20rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -113rem;
+    bottom: -10;
+    top: 25rem;
+    z-index: -1;
+}
+.bar8 {
+    width: 4rem;
+    height: 10rem;
+    background: rgb(253, 82, 239);
+    position: relative;
+    left: -128rem;
+    bottom: -10;
+    top: 30rem;
+    z-index: -1;
+}
